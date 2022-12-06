@@ -1,0 +1,14 @@
+body {
+    background-image: url("image//image_fondo.png");
+    background-attachment: fixed;
+}
+
+* {
+    font-size: 1.4rem;
+}
+
+li {
+    margin: 5px;
+    outline:  3px solid blue;
+    background-color: blueviolet;
+}

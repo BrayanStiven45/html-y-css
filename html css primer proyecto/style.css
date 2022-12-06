@@ -1,0 +1,67 @@
+html {
+    font-family: "Monstserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: rgb(48, 48, 54);
+    color: white;
+    padding: 3rem 2rem;
+}
+/*one rem is 16px*/
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/*con el transition le podemos indicar la animacion la cual
+queremos que tarde un tiempo en aparecer y en terminar
+y tambien la forma en la que lo puede hacer, con all le indicamos a 
+transition que esa configuracion la queremos con todas las 
+animacion que se encuentren el la etiqueta que estamos utilizando
+y tambien se le puede dar en vez de all el nombre de dicha animacion*/
+section article {
+    transition: all 0.5s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(32, 147, 214, 50%);
+}
+
+section article h2, section article p {
+    margin: 1rem 1rem;
+} 
+
+footer {
+    background-color: rgb(34, 32, 32);
+    padding: 2rem;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer a{
+    transition: color 0.5s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: aqua;
+}
