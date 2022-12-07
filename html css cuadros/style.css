@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(228, 227, 227);
+    margin: 0;
+}
+
+
+header {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(88, 82, 82)
+}
+
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container article {
+    width: 200px;
+    margin: 1px auto;
+}
+
+img {
+    transition: all 0.5s ease;
+    width: 20px;
+    height: 20px;
+}
+
+/*en box-shadow primero es la sombra hacia la izquierda el segundo es la
+sombra hacia abajo, el tercer es la iluminacion de la sombra, el cuarto es
+el tamaño de la sombra y el quinto es el color*/
+img:hover {
+    box-shadow: 0rem 0rem 4rem 0 rgba(51, 56, 59, 0.5);
+    width: 200px;
+    height: 200px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+
